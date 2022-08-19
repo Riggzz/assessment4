@@ -7,6 +7,32 @@
     <button id="complimentButton">Get a compliment</button>
     <button id="fortuneButton">Click to recieve a fortune</button>
 
+    <label for="cars">choose a car:</label>
+    <select name="cars" id="cars">
+      <option value="volvo">Volvo</option>
+      <option value="porsche">Porsche</option>
+      <option value="nissan">Nissan</option>
+      <option value="toyota">Toyota</option>
+      <option value="ford">Ford</option>
+</select>
+
+<fieldset>
+  <legend>Choose your car feautures:</legend>
+
+  <div>
+    <input type="checkbox" id="wheels" name="wheels"
+           checked>
+    <label for="wheels">Wheels</label>
+  </div>
+
+  <div>
+    <input type="checkbox" id="turbo" name="turbo">
+    <label for="turbo">Turbo</label>
+  </div>
+</fieldset>
+
+<button id="dontTouch">Dont touch this button</button>
+
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>
     

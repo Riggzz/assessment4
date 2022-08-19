@@ -15,4 +15,20 @@ const { getFortune } = require('./controller')
 
 app.get("/api/fortune", getFortune);
 
+const { getCars } = require('./controller')
+
+app.get("/api/cars", getCars)
+
+const { getWheels } = require('./controller')
+
+app.get("/api/wheels", getWheels)
+
+const { getTurbo } = require('./controller')
+
+app.get("/api/turbo", getTurbo)
+
+const { deleteDont } = require('./controller')
+
+app.delete("/api/dontTouch", deleteDont)
+
 app.listen(4000, () => console.log("Server running on 4000"));

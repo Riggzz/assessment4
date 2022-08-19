@@ -19,4 +19,28 @@ module.exports = {
         res.status(200).send(randomFortune);
     },
 
+    getCars: (req, res) => {
+        const carsAlert = ["thank you"]
+        
+        res.status(200).send(carsAlert)
+    },
+
+    getWheels: (req, res) => {
+        const wheelsAlert = ["wheels make the car look better"]
+
+        res.status(200).send(wheelsAlert)
+    },
+
+    getTurbo: (req, res) => {
+        const turboAlert = ["A turbo gives the car more power"]
+
+        res.status(200).send(turboAlert)
+    },
+
+    deleteDont: (req, res) => {
+        const dontAlert = ["you have a virus now"]
+
+        res.status(200).send(dontAlert)
+    }
+
 }
