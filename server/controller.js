@@ -41,6 +41,6 @@ module.exports = {
         const dontAlert = ["you have a virus now"]
 
         res.status(200).send(dontAlert)
-    }
+    },
 
 }
